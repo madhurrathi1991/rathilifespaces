@@ -18,7 +18,7 @@ class Home extends CI_Controller {
         //$this->load->model('ph_model');
         //$this->load->helper('url');
         //$this->load->library('encryption');
-        $this->load->helper('download');
+        //$this->load->helper('download');
 		
 	 	$methodname = $this->router->fetch_method();
 		$this->data = array( );
